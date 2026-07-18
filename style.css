@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-color: black;
+    transition: 0.1s;
+    font-family: Helvetica, sans-serif;
+    margin: 3vw auto;
+    width: 95vw;
+    min-width: 400px;
+}
+section{
+    display: block;
+}
+
+article {
+    background-color: #2D2D2D;
+    height: 2.2vw;
+    width: 2.2vw;
+    display: inline-block;
+    border-radius: 2.2vw;
+    margin: 0.1vw;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 15vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.cyan {
+    background-color: #1ebacc;
+    color: #1ebacc;
+}
+
+.yellow {
+    background-color: #ffea4e;
+    color: #ffea4e;
+}
+
+.magenta {
+    background-color: #ff2f9e;
+    color: #ff2f9e;
+}
+
+.off {
+    background-color: #2d2d2d;
+    color: #2d2d2d;
+}
+
+
+.lime {
+    background-color: #b6ff3b;
+    color: #b6ff3b;
+}
+
+.sky {
+    background-color: #5ecbff;
+    color: #5ecbff;
+}
+
+.rose {
+    background-color: #ff5e87;
+    color: #ff5e87;
+}
+
+.gold {
+    background-color: #ffcf3b;
+    color: #ffcf3b;
+}
+
+
+.select-colour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 6vw;
+    width: 11vw;
+    font-size: 1.65vw;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+.select-colour.lime {
+    border-bottom: 1vw solid #b6ff3b;
+}
+
+.select-colour.sky {
+    border-bottom: 1vw solid #5ecbff;
+}
+
+.select-colour.rose {
+    border-bottom: 1vw solid #ff5e87;
+}
+
+.select-colour.gold {
+    border-bottom: 1vw solid #ffcf3b;
+}
+
+.not-selected{
+    color: #2D2D2D;
+    border-bottom: 1vw solid #2D2D2D !important;
+}
+
+.opacity {
+    opacity: 1 !important;
+}
