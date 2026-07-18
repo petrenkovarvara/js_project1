@@ -1,0 +1,1 @@
+Dot Board is a simple interactive JavaScript project that displays a grid of dots and lets the user change the active dot’s color using a small color menu. It demonstrates basic DOM manipulation, event handling, and dynamic styling inside a minimal, clean interface, making it a beginner‑friendly example of interactive UI behavior.
